@@ -1,7 +1,7 @@
 module.exports = {
   "extends": [
     "stylelint-config-standard-scss",
-    "stylelint-a11y/recommended",
+    "@ronilaukkarinen/stylelint-a11y/recommended",
     "stylelint-config-hudochenkov/order"
   ],
   "plugins": [
