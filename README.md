@@ -1,4 +1,4 @@
-# Sika's Style Config
+# Sika's Stylelint Config
 
 [![CI](https://github.com/sikaeducation/stylelint-config/actions/workflows/main.yml/badge.svg)](https://github.com/sikaeducation/stylelint-config/actions/workflows/main.yml)
 
