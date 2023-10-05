@@ -1,0 +1,27 @@
+{
+	"name": "@sikaeducation/stylelint-config",
+	"version": "0.0.1",
+	"description": "Linting and formatting for Sika's CSS and SCSS projects",
+	"main": ".stylelintrc.js",
+	"keywords": [
+		"stylelint",
+		"stylelint-config"
+	],
+	"scripts": {
+		"lint": "stylelint **/*.scss --fix"
+	},
+	"author": "Kyle Coberly",
+	"license": "MIT",
+	"peerDependencies": {
+		"@sikaeducation/stylelint-config": "*",
+		"stylelint": "^15.10.3",
+		"stylelint-color-format": "^1.1.0",
+		"stylelint-config-hudochenkov": "^9.0.0",
+		"stylelint-config-standard": "^34.0.0",
+		"stylelint-config-standard-scss": "^11.0.0",
+		"stylelint-order": "^6.0.3",
+		"stylelint-plugin-defensive-css": "^0.9.1",
+		"stylelint-plugin-logical-css": "^0.13.2",
+		"stylelint-use-nesting": "^4.1.0"
+	}
+}
