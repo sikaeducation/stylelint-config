@@ -53,4 +53,3 @@ module.exports = {
   reportNeedlessDisables: true,
   ignoreFiles: ["node_modules/**", "**/*.{js,cjs,mjs,jsx,ts,tsx,html}"],
 };
-
