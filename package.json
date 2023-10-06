@@ -1,6 +1,6 @@
 {
 	"name": "@sikaeducation/stylelint-config",
-	"version": "1.0.5",
+	"version": "1.0.6",
 	"description": "Linting and formatting for Sika's CSS and SCSS projects",
 	"main": "index.js",
 	"keywords": [
