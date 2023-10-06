@@ -51,6 +51,13 @@ module.exports = {
 	},
 	"reportInvalidScopeDisables": true,
 	"reportNeedlessDisables": true,
-	"ignoreFiles": ["**/*.js", "**/*.jsx", "**/*.ts", "**/*.tsx", ".html"],
+	"ignoreFiles": [
+		"node_modules/**",
+		"**/*.js",
+		"**/*.jsx",
+		"**/*.ts",
+		"**/*.tsx",
+		"**/*.html",
+	],
 }
 
