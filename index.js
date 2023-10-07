@@ -1,8 +1,19 @@
 module.exports = {
 	extends: [
 		"stylelint-config-standard-scss",
+		"stylelint-config-prettier-scss",
 		"@ronilaukkarinen/stylelint-a11y/recommended",
 		"stylelint-config-hudochenkov/order",
+	],
+	ignoreFiles: [
+		"node_modules/**",
+		"**/*.js",
+		"**/*.cjs",
+		"**/*.mjs",
+		"**/*.jsx",
+		"**/*.ts",
+		"**/*.tsx",
+		"**/*.html",
 	],
 	plugins: [
 		"stylelint-color-format",
@@ -51,14 +62,4 @@ module.exports = {
 	},
 	reportInvalidScopeDisables: true,
 	reportNeedlessDisables: true,
-	ignoreFiles: [
-		"node_modules/**",
-		"**/*.js",
-		"**/*.cjs",
-		"**/*.mjs",
-		"**/*.jsx",
-		"**/*.ts",
-		"**/*.tsx",
-		"**/*.html",
-	],
 };

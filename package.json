@@ -27,6 +27,7 @@
 		"stylelint-use-nesting": "^4.1.0"
 	},
 	"devDependencies": {
-		"@sikaeducation/stylelint-config": "*"
+		"@sikaeducation/stylelint-config": "*",
+		"stylelint-config-prettier-scss": "^1.0.0"
 	}
 }
