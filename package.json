@@ -1,33 +1,35 @@
 {
-	"name": "@sikaeducation/stylelint-config",
-	"version": "1.0.8",
-	"description": "Linting and formatting for Sika's CSS and SCSS projects",
-	"main": "index.js",
-	"keywords": [
-		"stylelint",
-		"stylelint-config"
-	],
-	"scripts": {
-		"lint": "stylelint **/*.scss --fix"
-	},
-	"author": "Kyle Coberly",
-	"license": "MIT",
-	"peerDependencies": {
-		"stylelint": "^15.10.3"
-	},
-	"dependencies": {
-		"@ronilaukkarinen/stylelint-a11y": "^1.2.7",
-		"stylelint-color-format": "^1.1.0",
-		"stylelint-config-hudochenkov": "^9.0.0",
-		"stylelint-config-standard": "^34.0.0",
-		"stylelint-config-standard-scss": "^11.0.0",
-		"stylelint-order": "^6.0.3",
-		"stylelint-plugin-defensive-css": "^0.9.1",
-		"stylelint-plugin-logical-css": "^0.13.2",
-		"stylelint-use-nesting": "^4.1.0"
-	},
-	"devDependencies": {
-		"@sikaeducation/stylelint-config": "*",
-		"stylelint-config-prettier-scss": "^1.0.0"
-	}
+  "name": "@sikaeducation/stylelint-config",
+  "version": "1.0.8",
+  "description": "Linting and formatting for Sika's CSS and SCSS projects",
+  "main": "index.js",
+  "keywords": [
+    "stylelint",
+    "stylelint-config"
+  ],
+  "scripts": {
+    "lint": "eslint --fix ."
+  },
+  "author": "Kyle Coberly",
+  "license": "MIT",
+  "peerDependencies": {
+    "stylelint": "^15.10.3"
+  },
+  "dependencies": {
+    "@ronilaukkarinen/stylelint-a11y": "^1.2.7",
+    "stylelint-color-format": "^1.1.0",
+    "stylelint-config-hudochenkov": "^9.0.0",
+    "stylelint-config-prettier-scss": "^1.0.0",
+    "stylelint-config-standard": "^34.0.0",
+    "stylelint-config-standard-scss": "^11.0.0",
+    "stylelint-order": "^6.0.3",
+    "stylelint-plugin-defensive-css": "^0.9.1",
+    "stylelint-plugin-logical-css": "^0.13.2",
+    "stylelint-use-nesting": "^4.1.0"
+  },
+  "devDependencies": {
+    "@sikaeducation/eslint-config": "^2.1.0",
+    "@sikaeducation/stylelint-config": "*",
+    "prettier": "^3.0.3"
+  }
 }
