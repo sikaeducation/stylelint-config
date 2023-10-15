@@ -9,9 +9,7 @@ Install with `npm install -D stylelint @sikaeducation/stylelint-config`.
 ```js
 // .stylelintrc.cjs
 module.exports = {
-	extends: [
-		"@sikaeducation/stylelint-config",
-	],
+  extends: ["@sikaeducation/stylelint-config"],
 };
 ```
 

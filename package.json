@@ -8,7 +8,8 @@
     "stylelint-config"
   ],
   "scripts": {
-    "lint": "eslint --fix ."
+    "update:sika": "npm i @sikaeducation/eslint-config@latest",
+    "lint": "eslint --report-unused-disable-directives --ignore-path .gitignore --fix . && prettier . --write"
   },
   "author": "Kyle Coberly",
   "license": "MIT",
@@ -29,7 +30,6 @@
   },
   "devDependencies": {
     "@sikaeducation/eslint-config": "^2.1.0",
-    "@sikaeducation/stylelint-config": "*",
     "prettier": "^3.0.3"
   }
 }
