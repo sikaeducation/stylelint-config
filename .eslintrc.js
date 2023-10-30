@@ -1,4 +1,3 @@
-/* eslint-disable import/no-unresolved */
 module.exports = {
-  overrides: [require("@sikaeducation/eslint-config/js")],
+  extends: "@sikaeducation/eslint-config/src/configs/js",
 };
