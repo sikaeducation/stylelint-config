@@ -24,7 +24,7 @@
     "lint": "eslint --report-unused-disable-directives --ignore-path .gitignore --fix . && prettier . --write"
   },
   "peerDependencies": {
-    "stylelint": "^15.10.3"
+    "stylelint": "^15.11.0"
   },
   "dependencies": {
     "@ronilaukkarinen/stylelint-a11y": "^1.2.7",
