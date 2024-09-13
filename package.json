@@ -40,7 +40,7 @@
     "stylelint-use-nesting": "^4.1.0"
   },
   "devDependencies": {
-    "@sikaeducation/eslint-config": "^3.1.0",
+    "@sikaeducation/eslint-config": "^4.0.0",
     "prettier": "^3.3.3"
   }
 }
