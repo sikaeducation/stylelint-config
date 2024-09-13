@@ -2,8 +2,6 @@ module.exports = {
   extends: [
     "stylelint-config-standard-scss",
     "stylelint-config-html",
-    "@ronilaukkarinen/stylelint-a11y/recommended",
-    "stylelint-config-hudochenkov/order",
   ],
   ignoreFiles: [
     "node_modules/**",

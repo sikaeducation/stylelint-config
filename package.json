@@ -24,19 +24,17 @@
     "lint": "eslint --report-unused-disable-directives --ignore-path .gitignore --fix . ; prettier . --write"
   },
   "peerDependencies": {
-    "stylelint": "^15.11.0"
+    "stylelint": "^16.9.0"
   },
   "dependencies": {
-    "@ronilaukkarinen/stylelint-a11y": "^1.2.9",
     "postcss-html": "^1.7.0",
     "stylelint-color-format": "^1.1.0",
     "stylelint-config-html": "^1.1.0",
-    "stylelint-config-hudochenkov": "^9.0.0",
-    "stylelint-config-standard": "^34.0.0",
-    "stylelint-config-standard-scss": "^11.0.0",
+    "stylelint-config-standard": "^36.0.1",
+    "stylelint-config-standard-scss": "^13.1.0",
     "stylelint-order": "^6.0.4",
-    "stylelint-plugin-defensive-css": "^0.9.1",
-    "stylelint-plugin-logical-css": "^0.13.2",
+    "stylelint-plugin-defensive-css": "^1.0.4",
+    "stylelint-plugin-logical-css": "^1.2.1",
     "stylelint-use-nesting": "^4.1.0"
   },
   "devDependencies": {
